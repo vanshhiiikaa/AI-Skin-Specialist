@@ -1,0 +1,21 @@
+[project]
+name = "ai-skin-specialist"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vanshika", email = "vanshhiiikaa.in" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=1.11.0",
+    "google-genai>=2.28.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-skin-specialist = "ai_skin_specialist:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
