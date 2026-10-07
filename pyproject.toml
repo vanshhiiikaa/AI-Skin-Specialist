@@ -10,7 +10,10 @@ requires-python = ">=3.13"
 dependencies = [
     "anthropic>=1.11.0",
     "google-genai>=2.28.0",
+    "gtts>=2.5.4",
     "python-dotenv>=1.2.4",
+    "streamlit>=1.65.0",
+    "streamlit-mic-recorder>=0.0.8",
 ]
 
 [project.scripts]
